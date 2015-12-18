@@ -1,7 +1,6 @@
 require 'open-uri'
 require 'JSON'
 require_relative 'model'
-require 'pry'
 require_relative 'view'
 
 class Controller
@@ -14,7 +13,6 @@ class Controller
   end
 
   def run_method
-    binding.pry
     puts @full_rest_list.restaurants
   end
 
