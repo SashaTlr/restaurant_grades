@@ -1,4 +1,3 @@
-require 'pry'
 class RestaurantModel
   attr_reader :restaurant_name, :cuisine, :address, :zip, :phone
   def initialize(args = {})
