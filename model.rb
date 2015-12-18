@@ -1,9 +1,12 @@
+require 'pry'
 class RestaurantModel
   attr_reader :restaurant_name, :cuisine, :address, :zip, :phone
   def initialize(args = {})
     @restaurant_name = args["dba"]
     @cuisine = args["cuisine_description"]
-    @address = "#{args["building"]} #{args["street"]}"
+    @building = args["building"].nil? ? "" : args["building"].strip
+    @street = args["street"].nil? ? "" : args["street"].strip
+    @address = "#{@building} #{@street}"
     @zip = args["zipcode"]
     @phone = args["phone"]
   end
@@ -15,6 +18,7 @@ end
 
 class Directory
   attr_reader :restaurants
+
  def initialize(restaurants)
   @restaurants = restaurants
  end
