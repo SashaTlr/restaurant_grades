@@ -11,7 +11,8 @@ Command line interface to return grade A restaurants in NYC by zip code. Data is
 2. Install ruby by running 
 ```bash
 brew install ruby 
-``` in command line.
+``` 
+in command line.
 
 ####To run program:
 
