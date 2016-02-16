@@ -6,9 +6,9 @@ To install ruby on a mac:
 
 1. Install homebrew by running 
 
-'''shell
+```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-'''
+```
 2. 
 
 To run program:
