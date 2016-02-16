@@ -1,6 +1,6 @@
 #NYC Restaurant Ratings by Zip Code
 
-###Command line interface to return grade A restaurants in NYC by zip code. Data is retrieved using a JSON API provided by [NYC Open Data] (https://nycopendata.socrata.com/).
+####Command line interface to return grade A restaurants in NYC by zip code. Data is retrieved using a JSON API provided by [NYC Open Data] (https://nycopendata.socrata.com/).
 
 ####To install ruby on a mac:
 
