@@ -5,9 +5,9 @@ Command line interface to return grade A restaurants in NYC by zip code. Data is
 ####To install ruby on a mac:
 
 1. Install homebrew by running 
-  ```bash 
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
-  ```
+```bash 
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
+```
 2. Install ruby by running 
 ```bash
 brew install ruby 
