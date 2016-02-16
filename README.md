@@ -3,7 +3,11 @@
 Command line interface to return grade A restaurants in NYC by zip code. Data is retrieved using a JSON API provided by [NYC Open Data] (https://nycopendata.socrata.com/).
 
 To install ruby on a mac:
-1. Install homebrew by running '''ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'''
+1. Install homebrew by running 
+
+'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
+
+2. 
 
 To run program:
 
